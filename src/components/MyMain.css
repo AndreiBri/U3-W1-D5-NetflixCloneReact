@@ -1,0 +1,29 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.btnleft {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+}
+
+.btnright {
+  position: absolute;
+  right: 0;
+  z-index: 999;
+}
+
+.card-img {
+  height: 45vh;
+}
+
+.bg-transparent:hover {
+  cursor: pointer;
+}
+
+.carousel-row {
+  scroll-behavior: smooth;
+}
