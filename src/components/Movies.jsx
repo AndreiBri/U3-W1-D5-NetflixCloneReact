@@ -48,7 +48,7 @@ class Movies extends Component {
       return (
         <>
           {[...Array(6)].map((_, i) => (
-            <Col key={i} xs={6} md={4} xl={2} className="movie-col">
+            <Col key={i} xs={6} md={4} xl={2} className="movie-col  text-center">
               <Card className="bg-transparent movie-card d-flex  justify-content-around align-items-center text-center gap-2 g-2" style={{ height: "45vh" }}>
                 <Spinner animation="border" variant="danger" />
               </Card>
